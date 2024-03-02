@@ -1,0 +1,46 @@
+/* 把图片作为背景墙 */
+body{
+    background-image: url(../images/yun.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* 下面代码是为了*/
+    display: grid;
+    place-items: center; /* 水平和垂直居中 */
+    min-height: 100vh;
+    margin: 0;
+}
+.index_body_div{
+    text-align: center;   
+}
+.index_body_div img{
+    border-radius: 40px;
+    width: 100px;
+    height: 100px;
+    
+}
+.index_body_div h3{
+    margin: 0px;
+    font-size:longer;
+    letter-spacing: 4px; /* 增加汉字间的间距为2px */
+}
+.index_body_div hr{
+   /* 移除默认边框 */
+    border:none;
+    /* 设置高度 */
+    height: 1.5px;
+    width: 200px;
+    background-color: black;
+}
+.w_button{
+    
+    
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px;  
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
