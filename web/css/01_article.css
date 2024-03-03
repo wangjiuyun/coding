@@ -27,6 +27,7 @@
     padding-top: 10px;
 }
 .contains_content{
+    text-indent: 2em;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
