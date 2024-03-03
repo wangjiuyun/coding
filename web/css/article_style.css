@@ -1,0 +1,50 @@
+#contains_one{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    height: 180px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 8%;
+    margin-right: 10%;
+    /* 确保contains_one可以作为flex容器的父元素 */
+    display: flex;
+    /* 使内容垂直排列 */
+    flex-direction: column;
+    /* 分散对齐子项 */
+    justify-content: space-between;
+    padding:20px
+    
+}
+#contains_one:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#contains_one h2{
+    margin-top:20px;
+    padding-left:5px;
+    padding-top: 10px;
+}
+#contains_one p{
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contains_a{
+    display: flex;
+    /* 使按钮靠右对齐 */
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+button{
+    padding-left: 80%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px;  
+    padding:15px;
+    /* 改善鼠标悬停在按钮上时的指针样式 */
+    cursor: pointer;
+    /*
+    min-height:10px; 
+    min-width: 20px; */
+}

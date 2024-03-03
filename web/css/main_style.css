@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+#contains{
+    /* 即灵活盒子布局模式 */
+    display: flex;
+    /* background-color: blue; */
+    height:100vh;
+    /* width:100vh; 
+    height: 100vh; */
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+}
+#left_page{
+    height: 100vh;
+    /* flex属性代表伸展比例，收缩比例，基础宽度，将伸展，收缩为0，宽度为30% */
+    flex: 0 0 30%;
+    /* 删除边框 */
+    border: 0;
+    /* 去除控制滚动条*/
+    overflow: hidden;
+}
+
+#right_page{
+    /* background-color: red; */
+    flex: 0 0 70%;
+    height: 100vh;
+    /* width: 150vh; */
+    border: 0;
+    overflow:hidden;
+}

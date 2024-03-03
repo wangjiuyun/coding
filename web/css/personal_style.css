@@ -1,0 +1,26 @@
+body{
+    background-image: url(../images/yun.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    place-items:center;
+    /* 控制行高 */
+    /* gap:10px; */
+    min-height:100vh;
+    margin :0;
+}
+#per_left{
+    text-align: center;
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+   
+}
+h3{
+    /* text-align: center; */
+    margin-top: 5px;
+    letter-spacing: 4px;
+}
